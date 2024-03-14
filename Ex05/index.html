@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banner Rotatório</title>
+<style>
+    #banner {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+    #banner img {
+        width: 100%;
+        display: block;
+    }
+    #pauseButton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div id="banner">
+    <img id="imgBanner" src="img/banner1.png" alt="Banner Image">
+    <div id="pauseButton">Pause</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
